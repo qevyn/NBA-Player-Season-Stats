@@ -1,6 +1,6 @@
 # NBA Player Season Stats
 
-A simple script that can be used to pull season stats of any NBA player from Basketball Reference using BeautifulSoup.
+A simple Python script that can be used to pull season stats of any NBA player from Basketball Reference using BeautifulSoup.
 
 ## Example
 User Input: 
