@@ -16,7 +16,6 @@ def get_player_season_stats():
     session.mount('https://', adapter)
 
     r = session.get(url)
-    #r = requests.get(url, allow_redirects=False)
     r_html = r.text
     soup = BeautifulSoup(r_html, 'html.parser')
     
